@@ -1,15 +1,15 @@
 n = 'S'
-venda = 0
+soma = 0
 
 while n == 'S':
     venda = float(input('Digite o valor das vendas: '))
 
-    soma = n + venda
+    soma += venda
 
     n  = input('Quer continuar? [S/N]').upper().strip()
 
-    if n >= 1000:
-        desconto = venda * 0.10
+    if soma >= 1000:
+        desconto = soma * 0.10
         
         total = soma - desconto
 
