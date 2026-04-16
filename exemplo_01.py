@@ -40,4 +40,4 @@ for v in range(5):
 else:
       print('valor nao computado')
 
-print(f'\ntotal de R$ {soma}')
+print(f'\ntotal de R$')

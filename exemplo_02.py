@@ -20,5 +20,6 @@ soma = 0
 while resposta != 'N':
     n = int(input('informe um Numero: '))
     soma += n
-    resposta = input('Quer continuar? [S/N]')
+    resposta = input('Quer continuar? [S/N]').upper().strip()
+
 print (f'o total da soma é: {soma}')
